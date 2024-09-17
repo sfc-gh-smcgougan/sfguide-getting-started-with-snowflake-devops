@@ -3,7 +3,7 @@ use schema quickstart_{{environment}}.gold;
 
 
 -- declarative target table of pipeline
-create or alter table vacation_spots (
+create or  alter table vacation_spots (
     city varchar
   , airport varchar
   , co2_emissions_kg_per_person float
